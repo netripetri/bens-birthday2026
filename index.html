@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUSIC -->
+<audio id="music" src="april.mp3" loop></audio>
+
+<!-- INTRO -->
+<div id="intro">
+  <h1 id="question">Oh hello there, welcome!<br>Are you Benjamin?</h1>
+  <div class="buttons">
+    <button id="yesBtn">yes</button>
+    <button id="noBtn">no</button>
+  </div>
+</div>
+
+<!-- SCENE -->
+<div id="scene" class="hidden">
+  <img src="images/Background.png" id="background">
+  <img src="images/Me.png" id="me">
+  <img src="images/Bella.png" id="bella">
+  <img src="images/Lulu.png" id="lulu">
+
+  <!-- EXCLAMATION -->
+  <img src="images/Exclamation.png" id="ex1" class="hidden">
+  <img src="images/Exclamation.png" id="ex2" class="hidden">
+
+  <!-- MESSAGE BUBBLES -->
+  <img src="images/Bellamessage.png" id="bellaMsg" class="hidden">
+  <img src="images/Lulumessage.png" id="luluMsg" class="hidden">
+
+  <!-- BUTTON -->
+  <img src="images/Click.png" id="actionBtn" class="hidden">
+
+  <!-- LETTERS -->
+  <div id="letters"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
